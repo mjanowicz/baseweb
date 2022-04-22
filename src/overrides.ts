@@ -8,7 +8,7 @@ type StyleOverride<T> =
 
 type ComponentOverride<T> =
   | React.ComponentType<T>
-  | React.RefForwardingComponent<T>;
+
 
 interface OverrideObject<T> {
   component?: ComponentOverride<T>;
